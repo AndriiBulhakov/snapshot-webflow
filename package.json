@@ -1,0 +1,27 @@
+{
+  "name": "snapshot-webflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.22.5",
+    "apicache": "^1.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "moralis": "^2.22.5",
+    "needle": "^3.2.0",
+    "node-fetch": "^2.7.0",
+    "web3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
